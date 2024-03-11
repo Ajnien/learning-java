@@ -75,15 +75,9 @@ public class ArraysAndLoops {
         }
         System.out.println(" ");
         for (int j = 2; j <= 100; j++) {
-            if (i % 2 == 0) {
-                System.out.print(i + " ");
-
+            if (j % 2 == 0) {
+                System.out.print(j + " ");
             }
-
         }
-
-
     }
-
-
-}
+    }
